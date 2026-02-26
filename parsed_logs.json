@@ -1,0 +1,68 @@
+[
+  {
+    "timestamp": "2026-02-05 08:11:20",
+    "level": "ERROR",
+    "service": "db",
+    "message": "DB timeout while fetching user profile"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:21",
+    "level": "INFO",
+    "service": "auth",
+    "message": "User login success"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:22",
+    "level": "warn",
+    "service": "api",
+    "message": "Slow response detected (920ms)"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:23",
+    "level": "ERROR",
+    "service": "payments",
+    "message": "Payment provider latency high"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:24",
+    "level": "INFO",
+    "service": "storage",
+    "message": "File uploaded id=file_123 bytes=5000"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:25",
+    "level": "WARN",
+    "service": "cache",
+    "message": "Cache miss key=user:2041"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:26",
+    "level": "INFO",
+    "service": "scheduler",
+    "message": "Job completed successfully job=daily-report duration_ms=1200"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:27",
+    "level": "ERROR",
+    "service": "api",
+    "message": "Unhandled exception type=TimeoutError message=null value"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:28",
+    "level": "INFO",
+    "service": "gateway",
+    "message": "GET /health 200 (30ms)"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:29",
+    "level": "INFO",
+    "service": "frontend",
+    "message": "Rendered page /home"
+  },
+  {
+    "timestamp": "2026-02-05 08:11:30",
+    "level": "INFO",
+    "service": "analytics",
+    "message": "Metrics pushed cpu=30% mem=45%"
+  }
+]
